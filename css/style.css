@@ -1,0 +1,318 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@font-face{
+    font-family:SweetWinterRegular;
+    src:url(../font/SweetWinterRegular.otf);
+}
+
+body,div,nav,ul,li,p,h1,span{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Jeju Gothic', serif;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+h1{
+    font-weight: normal;
+}
+.main_bg{
+    width: 100%;
+    
+    background: url(../imgs/top.jpg) no-repeat left top, no-repeat left top,url(../imgs/mainbg.png) no-repeat left top,url(../imgs/bgleft.png) no-repeat left bottom, url(../imgs/bgright.png) no-repeat right bottom ;
+    background-color: #fffef7;
+    
+}
+.main_page{
+    position: relative;
+}
+.gnb{
+    width: 100%;
+    
+}
+.gnb>ul{
+    float: right;
+}
+.gnb>ul>li{
+    float: left;
+    margin-right: 30px;
+}
+.gnb>ul>li>a{
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+}
+.gnb>ul>li>a:hover{
+     color: #607872;
+}
+.main_img{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+    text-align: center;
+}
+.bottom{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: SweetWinterRegular, serif;
+    color: #607872;
+}
+#aboutme{
+    width: 1100px;
+    height: 680px;
+    margin: 0px auto;
+    margin-top: 150px;
+    
+/*
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+*/
+    clear: left;
+}
+#aboutme .imgbox{
+    width: 300px;
+    height: auto;
+    float:left;
+}
+#aboutme .imgbox img{
+    width: 278px;
+    height: auto;
+}
+#aboutme .career{
+    
+}
+#aboutme .career>.name{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+}
+#aboutme .career>p{
+    font-size: 20px;
+    line-height: 50px;
+}
+#aboutme .program{
+    width: 600px;
+    float:right;
+/*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+*/
+}
+#aboutme .program img{
+    display: block;
+    height: 135px;
+}
+#aboutme .icon{
+    
+}
+#aboutme .icon>img{
+    width: 491px;
+    height: 117px;
+    display: block;
+    margin-top:100px;
+    margin-left: 500px;
+}
+.work1{
+    width: 1500px;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+    margin: 180px auto 80px;
+}
+.work1>.cgv>.name{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+}
+.work1>.cgv>p{
+    font-size: 20px;
+    line-height: 50px;
+}
+.cgv{
+    margin-left: 75px;
+}
+.imgbox{
+    position: relative;
+}
+.imgbox .cgvqr{
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    font-size: 20px;
+}
+.imgbox .cgvqr>img{
+    display: inline-block;
+}
+.work2{
+    width: 1400px;
+    height: 560px;
+    margin: 180px auto 80px;
+}
+.samsung{
+    float: right;
+}
+.samsung>.name{
+    font-size: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+    margin-bottom: 20px;
+}
+.samsung>p{
+    font-size:20px;
+     line-height: 50px;
+}
+.imgbox2{
+    position: relative;
+}
+.imgbox2 .ssqr{
+    display: block;
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    left:45px;
+    top: 400px;
+}
+.imgbox2 .ssqr>img{
+    display: inline-block;
+}
+.ikea>.name{
+    font-size: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+    margin-bottom: 20px;
+}
+.mockup>.name{
+    font-size: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+    margin-bottom: 30px;
+}
+.contact{
+    position: relative;
+}
+.work3{
+    width: 1500px;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+    margin: 180px auto 80px;
+}
+.work3>.ikea>.name{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+}
+.work3>.ikea>p{
+    font-size: 20px;
+    line-height: 50px;
+}
+.ikea{
+    margin-left: 75px;
+}
+.imgbox3{
+    position: relative;
+}
+.imgbox3 .ikqr{
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    font-size: 20px;
+}
+.imgbox .ikqr>img{
+    display: inline-block;
+}
+
+.mobilepage>div{
+    float: left;
+}
+.mockup{
+    margin:50px 150px 0px 260px;
+}
+.mobileUI{  
+    width:296px;  height:640px;      
+    margin:200px 0 0 100px;
+    transform:rotate(-30deg) skewX(20deg) scale(0.7);
+}
+.mobileUI>img{
+    position:absolute;  left:0px;  top:0px;  
+    width:inherit;  height:inherit;  transition:all 0.5s;
+}
+.mobileUI:hover>img:nth-of-type(1){ 
+        transform:translate(40px,-40px);   opacity:0.8;
+}
+.mobileUI:hover>img:nth-of-type(2){ 
+        transform:translate(80px,-80px);    opacity:0.8; 
+}
+.mobileUI:hover>img:nth-of-type(3){ 
+        transform:translate(120px,-120px);   opacity:0.8;  
+}
+.mobileUI:hover>img:nth-of-type(4){ 
+        transform:translate(160px,-160px);   opacity:0.8;  
+}
+.mobileUI:hover>img:nth-of-type(5){ 
+        transform:translate(200px,-200px);   opacity:0.8;  
+}
+.mobileUI:hover>img:nth-of-type(6){ 
+        transform:translate(240px,-240px);   opacity:0.8;  
+}
+.footer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer>p{
+    text-align: center;
+    line-height: 40px;
+}
+.footer>.rg{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: SweetWinterRegular, serif;
+    color: #2a403b;
+}
+.footer>.md{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: SweetWinterRegular, serif;
+    color: #607872;
+}
+.footer>p{
+    font-size: 20px;
+}
+#fp-nav>ul>li>a>span{
+    background:#2a403b !important; 
+}
